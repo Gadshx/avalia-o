@@ -1,0 +1,111 @@
+/* Estilos gerais para o corpo da página */
+body {
+    background-color: #0c1445; /* Um tom de azul bem escuro */
+    background-image: url('https://preview.redd.it/insanely-cool-new-key-art-for-digimon-story-time-stranger-v0-l4o6s92v5llf1.jpeg?width=1080&crop=smart&auto=webp&s=e3ed22a1555040daa902c13ac9c73b3909b8551e'); /* Imagem de fundo fornecida */
+    background-size: cover; /* Para a imagem cobrir todo o fundo */
+    background-position: center; /* Para a imagem ficar centralizada */
+    background-attachment: fixed; /* Para a imagem não rolar com o conteúdo */
+    color: #ffffff; /* Cor do texto principal (branco) */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Uma fonte mais moderna */
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container principal para centralizar o conteúdo */
+.container {
+    width: 80%;
+    margin: 40px auto;
+    padding: 25px;
+    background-color: rgba(12, 20, 69, 0.85); /* Fundo semi-transparente para o conteúdo */
+    border-radius: 15px; /* Bordas arredondadas */
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1); /* Sombra suave */
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: transparent; /* Fundo transparente para mesclar com o body */
+    padding: 1.5rem;
+    text-align: center;
+    border-bottom: 2px solid #00aaff; /* Linha azul clara para separar */
+}
+
+header h1 {
+    color: #ffffff; /* Cor do título principal */
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px #000000; /* Sombra no texto para destaque */
+}
+
+/* Estilos para a navegação */
+nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 25px; /* Aumenta o espaçamento */
+}
+
+nav a {
+    text-decoration: none;
+    color: #00e5ff; /* Azul ciano para links de navegação */
+    font-size: 1.2em;
+    transition: color 0.3s, text-shadow 0.3s; /* Transição suave */
+}
+
+nav a:hover {
+    color: #ffffff; /* Cor ao passar o mouse */
+    text-shadow: 0 0 10px #00e5ff; /* Brilho ao passar o mouse */
+}
+
+/* Estilos para as seções */
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: rgba(23, 43, 111, 0.5); /* Fundo levemente visível para seções */
+    border-radius: 10px;
+}
+
+h2 {
+    color: #00aaff; /* Azul claro para os títulos das seções */
+    border-bottom: 1px solid #00aaff;
+    padding-bottom: 10px;
+}
+
+/* Estilos para listas e links dentro do conteúdo */
+ul {
+    list-style-type: '★ '; /* Usando um emoji de estrela como marcador */
+    padding-left: 20px;
+}
+
+a {
+    color: #00e5ff; /* Cor padrão para links */
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #89ddff; /* Cor mais clara ao passar o mouse */
+}
+
+/* Estilos específicos para a imagem do personagem */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto; /* Adiciona margem vertical */
+    border-radius: 10px; /* Bordas arredondadas na imagem */
+    border: 3px solid #00aaff; /* Borda azul clara */
+    box-shadow: 0 0 15px #00aaff; /* Efeito de brilho */
+    max-height: 400px;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: transparent;
+    border-top: 2px solid #00aaff;
+    padding: 1rem;
+    text-align: center;
+    color: #cccccc; /* Cor de texto mais suave para o rodapé */
+    margin-top: 30px;
+}
